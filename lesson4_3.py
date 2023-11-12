@@ -4,6 +4,6 @@
 
 
 n = int(input("enter any number :"))
-# data = {i: {"name": input("enter your name:"), "email": input("enter your email:")} for i in range(0, n+1)}
-# print(data)
+data = {i: {"name": input("enter your name:"), "email": input("enter your email:")} for i in range(0, n+1)}
+print(data)
 

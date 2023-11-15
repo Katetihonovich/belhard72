@@ -11,7 +11,6 @@ n = int(input())
 #          print("\n")
 
 
-
 numbers = []
 for i in range(2, n+1):
     if i % 2:

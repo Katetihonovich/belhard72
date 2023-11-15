@@ -10,8 +10,7 @@ for i in range(0, 100):
         counter = counter+1
     if counter == n:
         break
-#
-#
+
 # for i in range(1, 100):
 #     if i % m == 0 and i > k:
 #         print(i)

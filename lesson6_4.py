@@ -3,7 +3,7 @@
 # незаконно
 
 list_of = ["hello", 5, "minsk", 6, 1, 3, 2, "567", 324]
-result = filter(lambda x: type(x) is str, list_of)
+result = filter(lambda x: isinstance(x, str), list_of)
 print(*result)
 
 

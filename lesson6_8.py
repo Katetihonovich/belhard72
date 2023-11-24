@@ -7,8 +7,9 @@ world = {
     "RSA": ["Johannesburg", "Pretoria", "CapeTown"]
 }
 
-
 city = input()
+
+
 def find_country():
     for country, cities in world.items():
         if city in cities:
@@ -17,6 +18,5 @@ def find_country():
     else:
         print(f'ERROR: Country for {city} not found')
 
+
 find_country()
-
-

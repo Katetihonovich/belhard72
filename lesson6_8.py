@@ -6,7 +6,6 @@ world = {
     "Poland": ["Warsaw", "Gdansk", "Krakow", "Lodz"],
     "RSA": ["Johannesburg", "Pretoria", "CapeTown"]
 }
-
 city = input()
 
 
